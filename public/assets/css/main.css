@@ -1,5 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("font-awesome.min.css");
+@import url("http://overpass-30e2.kxcdn.com/overpass.css");
 
 /*
 	Astral by HTML5 UP
@@ -908,7 +909,8 @@
 		}
 
 	header > p {
-		color: #aaa;
+		 color:rgba(34,34,34,1.00);
+		 font-family:"Overpass Light"
 	}
 
 /* Image */
@@ -1077,11 +1079,22 @@
 	#main {
 		position: relative;
 		overflow: hidden;
+		background: rgba(255,255,255,0.5);
+		height: inherit;
 	}
+	
+		.logo {
+			background-repeat: no-repeat;
+			width: auto;
+			opacity: 0.6;
+			position: inherit;
+			left: 9%;
+			top: 10%;
+		}
 
 	.panel {
 		position: relative;
-		background: rgba(255,255,255,0.15);
+		background: rgba(255,255,255,0.5);
 	}
 
 /* Me */
@@ -1163,8 +1176,10 @@
 			}
 
 			h1 {
-				font-size: 2.4em;
+				font-size: 3.0em;
 				letter-spacing: -0.015em;
+				font-family:"Overpass Light";
+				
 			}
 
 			h2 {
@@ -1327,8 +1342,20 @@
 
 			#main {
 				width: 45em;
-				background: #ffffff;
 				box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
+				background: rgba(255,255,255,0.5);
+				height: inherit;
+
+			}
+			
+			.logo {
+				background-repeat: no-repeat;
+				width: auto;
+				opacity: 0.6;
+				position: inherit;
+				left: 9%;
+				top: 10%;
+
 			}
 
 			.panel {
@@ -1337,6 +1364,7 @@
 				top: 0;
 				left: 0;
 				width: 45em;
+				background: rgba(255,255,255,0.5);
 			}
 
 		/* Me */
@@ -1412,13 +1440,14 @@
 						left: 0;
 						bottom: 52.5%;
 						margin: 0;
+						font-weight: bold;
 					}
 
 					#me header > p {
 						position: absolute;
 						left: 0;
 						top: 52.5%;
-						font-size: 1.5em;
+						font-size: 1.0em;
 						letter-spacing: -0.015em;
 						margin-top: 0;
 					}
@@ -1529,12 +1558,23 @@
 
 			#main {
 				background: none;
+				height: inherit;
+				
+			}
+			
+			.logo {
+				background-repeat: no-repeat;
+				width: 30%;
+				opacity: 0.6;
+				top: 50%;
+				left: 36%;
+				
 			}
 
 			.panel {
 				padding: 15px 15px 15px 15px;
 				margin: 0 0 7px 0;
-				background: #ffffff;
+				background: rgba(255,255,255,0.5);
 				box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 			}
 
